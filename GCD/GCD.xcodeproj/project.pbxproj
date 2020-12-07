@@ -17,6 +17,7 @@
 		321FCF00257933F800E35EDF /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FCEFF257933F800E35EDF /* GCDTests.m */; };
 		321FCF0B257933F800E35EDF /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FCF0A257933F800E35EDF /* GCDUITests.m */; };
 		321FCF1D257934B400E35EDF /* GCDDeadLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FCF1C257934B400E35EDF /* GCDDeadLock.m */; };
+		326BE871257E794400FD355B /* PermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE870257E794400FD355B /* PermenantThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		321FCF0C257933F800E35EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321FCF1B257934B400E35EDF /* GCDDeadLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDDeadLock.h; sourceTree = "<group>"; };
 		321FCF1C257934B400E35EDF /* GCDDeadLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDeadLock.m; sourceTree = "<group>"; };
+		326BE86F257E794400FD355B /* PermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermenantThread.h; sourceTree = "<group>"; };
+		326BE870257E794400FD355B /* PermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermenantThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 			children = (
 				321FCF1B257934B400E35EDF /* GCDDeadLock.h */,
 				321FCF1C257934B400E35EDF /* GCDDeadLock.m */,
+				326BE86F257E794400FD355B /* PermenantThread.h */,
+				326BE870257E794400FD355B /* PermenantThread.m */,
 			);
 			path = gcdDemo;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 				321FCF1D257934B400E35EDF /* GCDDeadLock.m in Sources */,
 				321FCEE5257933F600E35EDF /* AppDelegate.m in Sources */,
 				321FCEF6257933F800E35EDF /* main.m in Sources */,
+				326BE871257E794400FD355B /* PermenantThread.m in Sources */,
 				321FCEE8257933F600E35EDF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
