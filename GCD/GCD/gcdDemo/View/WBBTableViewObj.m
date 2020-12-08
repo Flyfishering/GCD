@@ -11,8 +11,7 @@
 @interface WBBTableViewObj()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) NSArray *dataSource;
-@property (nonatomic, strong) NSArray *vcArray;
+@property (nonatomic, strong) NSDictionary *dataSource;
 @end
 
 
@@ -31,15 +30,15 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
-    cell.textLabel.text = self.dataSource[indexPath.row];
+    cell.textLabel.text = self.dataSource.allValues[indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    UIViewController *vc = [[NSClassFromString(self.vcArray[indexPath.row]) alloc] init];
-    vc.title = self.dataSource[indexPath.row];
+    UIViewController *vc = [[NSClassFromString(self.dataSource.allKeys[indexPath.row]) alloc] init];
+    vc.title = self.dataSource.allValues[indexPath.row];
     [self.pushVC.navigationController pushViewController:vc animated:YES];
 }
 
@@ -54,23 +53,15 @@
     return _tableView;
 }
 
-- (NSArray *)dataSource
+- (NSDictionary *)dataSource
 {
     if (!_dataSource) {
-        _dataSource = @[@"gcd-队列引起的线程死锁",
-                        @"gcd-线程保活"];
+        _dataSource = @{
+            @"GCDDeadLockVC":@"gcd-队列引起的线程死锁",
+            @"GCDPermenantThreadVC":@"gcd-线程保活",
+            @"GCDInterviewVC":@"gcd-面试题相关",
+        };
     }
     return _dataSource;
-}
-
-- (NSArray *)vcArray
-{
-    if (!_vcArray) {
-        _vcArray = @[
-            @"GCDDeadLockVC",
-        @"GCDPermenantThreadVC"
-        ];
-    }
-    return _vcArray;
 }
 @end

@@ -35,7 +35,7 @@
         self.innerThread = [[Thread alloc] initWithBlock:^{
             NSLog(@"begin----");
             
-            [self createRunloop];
+            [self createRunLoop];
 //            while (weakSelf && !weakSelf.isStopped) {
 //                // 第3个参数：returnAfterSourceHandled，设置为true，代表执行完source后就会退出当前loop
 //                CFRunLoopRunInMode(kCFRunLoopDefaultMode, 1.0e10, true);
@@ -49,7 +49,7 @@
     return self;
 }
 
-- (void)createRunloop
+- (void)createCFRunloop
 {
     // 创建上下文（要初始化一下结构体）
     CFRunLoopSourceContext context = {0};
@@ -66,6 +66,12 @@
     // 启动
     CFRunLoopRunInMode(kCFRunLoopDefaultMode, 1.0e10, false);
     
+}
+// 这个方法不会线程保活
+- (void)createRunLoop
+{
+    [[NSRunLoop currentRunLoop] addPort:[[NSPort alloc] init] forMode:NSDefaultRunLoopMode];
+    [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
 }
 
 //- (void)run
