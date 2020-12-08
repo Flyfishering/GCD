@@ -18,6 +18,9 @@
 		321FCF0B257933F800E35EDF /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FCF0A257933F800E35EDF /* GCDUITests.m */; };
 		321FCF1D257934B400E35EDF /* GCDDeadLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 321FCF1C257934B400E35EDF /* GCDDeadLock.m */; };
 		326BE871257E794400FD355B /* PermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE870257E794400FD355B /* PermenantThread.m */; };
+		326BE875257FA09D00FD355B /* WBBTableViewObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE874257FA09D00FD355B /* WBBTableViewObj.m */; };
+		326BE878257FA40700FD355B /* GCDDeadLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE877257FA40700FD355B /* GCDDeadLockVC.m */; };
+		326BE87B257FA6CF00FD355B /* GCDPermenantThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE87A257FA6CF00FD355B /* GCDPermenantThreadVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		321FCF1C257934B400E35EDF /* GCDDeadLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDeadLock.m; sourceTree = "<group>"; };
 		326BE86F257E794400FD355B /* PermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermenantThread.h; sourceTree = "<group>"; };
 		326BE870257E794400FD355B /* PermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermenantThread.m; sourceTree = "<group>"; };
+		326BE873257FA09D00FD355B /* WBBTableViewObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBBTableViewObj.h; sourceTree = "<group>"; };
+		326BE874257FA09D00FD355B /* WBBTableViewObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBTableViewObj.m; sourceTree = "<group>"; };
+		326BE876257FA40700FD355B /* GCDDeadLockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDDeadLockVC.h; sourceTree = "<group>"; };
+		326BE877257FA40700FD355B /* GCDDeadLockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDeadLockVC.m; sourceTree = "<group>"; };
+		326BE879257FA6CF00FD355B /* GCDPermenantThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDPermenantThreadVC.h; sourceTree = "<group>"; };
+		326BE87A257FA6CF00FD355B /* GCDPermenantThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDPermenantThreadVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,7 @@
 		321FCEE2257933F600E35EDF /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				326BE872257FA08000FD355B /* View */,
 				321FCF1A2579347700E35EDF /* gcdDemo */,
 				321FCEE3257933F600E35EDF /* AppDelegate.h */,
 				321FCEE4257933F600E35EDF /* AppDelegate.m */,
@@ -149,10 +159,24 @@
 			children = (
 				321FCF1B257934B400E35EDF /* GCDDeadLock.h */,
 				321FCF1C257934B400E35EDF /* GCDDeadLock.m */,
+				326BE876257FA40700FD355B /* GCDDeadLockVC.h */,
+				326BE877257FA40700FD355B /* GCDDeadLockVC.m */,
 				326BE86F257E794400FD355B /* PermenantThread.h */,
 				326BE870257E794400FD355B /* PermenantThread.m */,
+				326BE879257FA6CF00FD355B /* GCDPermenantThreadVC.h */,
+				326BE87A257FA6CF00FD355B /* GCDPermenantThreadVC.m */,
 			);
 			path = gcdDemo;
+			sourceTree = "<group>";
+		};
+		326BE872257FA08000FD355B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				326BE873257FA09D00FD355B /* WBBTableViewObj.h */,
+				326BE874257FA09D00FD355B /* WBBTableViewObj.m */,
+			);
+			name = View;
+			path = gcdDemo/View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326BE878257FA40700FD355B /* GCDDeadLockVC.m in Sources */,
+				326BE875257FA09D00FD355B /* WBBTableViewObj.m in Sources */,
 				321FCEEB257933F600E35EDF /* ViewController.m in Sources */,
 				321FCF1D257934B400E35EDF /* GCDDeadLock.m in Sources */,
 				321FCEE5257933F600E35EDF /* AppDelegate.m in Sources */,
 				321FCEF6257933F800E35EDF /* main.m in Sources */,
+				326BE87B257FA6CF00FD355B /* GCDPermenantThreadVC.m in Sources */,
 				326BE871257E794400FD355B /* PermenantThread.m in Sources */,
 				321FCEE8257933F600E35EDF /* SceneDelegate.m in Sources */,
 			);
