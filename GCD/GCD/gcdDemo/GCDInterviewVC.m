@@ -22,6 +22,10 @@
     [self.gcdInterview interviewLog];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.gcdInterview interviewLog];
+}
 
 - (GCDInterview *)gcdInterview
 {
