@@ -23,6 +23,8 @@
 		326BE87B257FA6CF00FD355B /* GCDPermenantThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE87A257FA6CF00FD355B /* GCDPermenantThreadVC.m */; };
 		326BE87E257FB10200FD355B /* GCDInterview.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE87D257FB10200FD355B /* GCDInterview.m */; };
 		326BE881257FB29500FD355B /* GCDInterviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE880257FB29500FD355B /* GCDInterviewVC.m */; };
+		326BE885257FBF7700FD355B /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE884257FBF7700FD355B /* GCDGroup.m */; };
+		326BE888257FBF9100FD355B /* GCDGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE887257FBF9100FD355B /* GCDGroupVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,10 @@
 		326BE87D257FB10200FD355B /* GCDInterview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDInterview.m; sourceTree = "<group>"; };
 		326BE87F257FB29500FD355B /* GCDInterviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDInterviewVC.h; sourceTree = "<group>"; };
 		326BE880257FB29500FD355B /* GCDInterviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDInterviewVC.m; sourceTree = "<group>"; };
+		326BE883257FBF7700FD355B /* GCDGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
+		326BE884257FBF7700FD355B /* GCDGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
+		326BE886257FBF9100FD355B /* GCDGroupVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDGroupVC.h; sourceTree = "<group>"; };
+		326BE887257FBF9100FD355B /* GCDGroupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroupVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 		321FCEE2257933F600E35EDF /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				326BE882257FBF5300FD355B /* gdc_group */,
 				326BE872257FA08000FD355B /* View */,
 				321FCF1A2579347700E35EDF /* gcdDemo */,
 				321FCEE3257933F600E35EDF /* AppDelegate.h */,
@@ -187,6 +194,17 @@
 			);
 			name = View;
 			path = gcdDemo/View;
+			sourceTree = "<group>";
+		};
+		326BE882257FBF5300FD355B /* gdc_group */ = {
+			isa = PBXGroup;
+			children = (
+				326BE883257FBF7700FD355B /* GCDGroup.h */,
+				326BE884257FBF7700FD355B /* GCDGroup.m */,
+				326BE886257FBF9100FD355B /* GCDGroupVC.h */,
+				326BE887257FBF9100FD355B /* GCDGroupVC.m */,
+			);
+			path = gdc_group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,12 +341,14 @@
 				326BE878257FA40700FD355B /* GCDDeadLockVC.m in Sources */,
 				326BE875257FA09D00FD355B /* WBBTableViewObj.m in Sources */,
 				321FCEEB257933F600E35EDF /* ViewController.m in Sources */,
+				326BE885257FBF7700FD355B /* GCDGroup.m in Sources */,
 				321FCF1D257934B400E35EDF /* GCDDeadLock.m in Sources */,
 				326BE881257FB29500FD355B /* GCDInterviewVC.m in Sources */,
 				321FCEE5257933F600E35EDF /* AppDelegate.m in Sources */,
 				321FCEF6257933F800E35EDF /* main.m in Sources */,
 				326BE87B257FA6CF00FD355B /* GCDPermenantThreadVC.m in Sources */,
 				326BE871257E794400FD355B /* PermenantThread.m in Sources */,
+				326BE888257FBF9100FD355B /* GCDGroupVC.m in Sources */,
 				321FCEE8257933F600E35EDF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -60,6 +60,7 @@
             @"GCDDeadLockVC":@"gcd-队列引起的线程死锁",
             @"GCDPermenantThreadVC":@"gcd-线程保活",
             @"GCDInterviewVC":@"gcd-面试题相关",
+            @"GCDGroupVC":@"gcd_dispatch_group",
         };
     }
     return _dataSource;
