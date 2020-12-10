@@ -61,6 +61,7 @@
             @"GCDPermenantThreadVC":@"gcd-线程保活",
             @"GCDInterviewVC":@"gcd-面试题相关",
             @"GCDGroupVC":@"gcd_dispatch_group",
+            @"LockVC":@"gcd-线程锁",
         };
     }
     return _dataSource;
