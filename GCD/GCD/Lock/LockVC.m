@@ -14,6 +14,7 @@
 #import "MutexDemo.h"
 #import "MutexDemo2.h"
 #import "MutexDemo3.h"
+#import "NSLockDemo.h"
 
 @interface LockVC ()
 
@@ -34,7 +35,8 @@
 //    [self OSUnfairLockDemo];
 //    [self MutexDemo];
 //    [self MutexDemo2];
-    [self MutexDemo3];
+//    [self MutexDemo3];
+    [self NSLockDemo];
 }
 
 /// 线程隐患
@@ -74,4 +76,11 @@
 {
     [[MutexDemo3 new] otherTest];
 }
+
+- (void)NSLockDemo
+{
+    [[NSLockDemo new] moneyTest];
+    [[NSLockDemo new] ticketTest];
+}
+
 @end
