@@ -13,6 +13,7 @@
 #import "OSUnfairLockDemo.h"
 #import "MutexDemo.h"
 #import "MutexDemo2.h"
+#import "MutexDemo3.h"
 
 @interface LockVC ()
 
@@ -32,7 +33,8 @@
 //    [self OSSpinLockDemo];
 //    [self OSUnfairLockDemo];
 //    [self MutexDemo];
-    [self MutexDemo2];
+//    [self MutexDemo2];
+    [self MutexDemo3];
 }
 
 /// 线程隐患
@@ -66,5 +68,10 @@
 - (void)MutexDemo2
 {
     [[MutexDemo2 new] otherTest];
+}
+
+- (void)MutexDemo3
+{
+    [[MutexDemo3 new] otherTest];
 }
 @end

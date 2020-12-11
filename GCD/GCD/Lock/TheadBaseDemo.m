@@ -20,6 +20,8 @@
     NSLog(@"TheadBaseDemo %s",__func__);
 }
 
+- (void)otherTest {}
+
 /**
  存钱、取钱演示
  */

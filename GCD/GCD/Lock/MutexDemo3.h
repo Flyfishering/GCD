@@ -1,5 +1,5 @@
 //
-//  MutexDemo2.h
+//  MutexDemo3.h
 //  GCD
 //
 //  Created by wbb on 2020/12/11.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MutexDemo2 : TheadBaseDemo
+@interface MutexDemo3 : TheadBaseDemo
 
 @end
 

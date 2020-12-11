@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)moneyTest;
 - (void)ticketTest;
+- (void)otherTest;
 
 #pragma mark - 暴露给子类去使用
 - (void)__saveMoney;

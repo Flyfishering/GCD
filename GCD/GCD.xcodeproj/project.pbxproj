@@ -32,6 +32,7 @@
 		328929362583A2FC0028DDC3 /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 328929352583A2FC0028DDC3 /* OSUnfairLockDemo.m */; };
 		328929392583A3FD0028DDC3 /* MutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 328929382583A3FD0028DDC3 /* MutexDemo.m */; };
 		3289293C2583AFA10028DDC3 /* MutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289293B2583AFA10028DDC3 /* MutexDemo2.m */; };
+		3289293F2583B70A0028DDC3 /* MutexDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289293E2583B70A0028DDC3 /* MutexDemo3.m */; };
 		32C04EBD25826CA700534697 /* OSSpinLockDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +104,8 @@
 		328929382583A3FD0028DDC3 /* MutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo.m; sourceTree = "<group>"; };
 		3289293A2583AFA10028DDC3 /* MutexDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo2.h; sourceTree = "<group>"; };
 		3289293B2583AFA10028DDC3 /* MutexDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo2.m; sourceTree = "<group>"; };
+		3289293D2583B70A0028DDC3 /* MutexDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexDemo3.h; sourceTree = "<group>"; };
+		3289293E2583B70A0028DDC3 /* MutexDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo3.m; sourceTree = "<group>"; };
 		32C04EBB25826CA700534697 /* OSSpinLockDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo2.h; sourceTree = "<group>"; };
 		32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -226,6 +229,8 @@
 				328929382583A3FD0028DDC3 /* MutexDemo.m */,
 				3289293A2583AFA10028DDC3 /* MutexDemo2.h */,
 				3289293B2583AFA10028DDC3 /* MutexDemo2.m */,
+				3289293D2583B70A0028DDC3 /* MutexDemo3.h */,
+				3289293E2583B70A0028DDC3 /* MutexDemo3.m */,
 				3228BD7725811E4200401F42 /* TheadBaseDemo.h */,
 				3228BD7825811E4200401F42 /* TheadBaseDemo.m */,
 				3228BD7125811C3B00401F42 /* LockVC.h */,
@@ -397,6 +402,7 @@
 				32C04EBD25826CA700534697 /* OSSpinLockDemo2.m in Sources */,
 				321FCEE5257933F600E35EDF /* AppDelegate.m in Sources */,
 				328929392583A3FD0028DDC3 /* MutexDemo.m in Sources */,
+				3289293F2583B70A0028DDC3 /* MutexDemo3.m in Sources */,
 				321FCEF6257933F800E35EDF /* main.m in Sources */,
 				328929362583A2FC0028DDC3 /* OSUnfairLockDemo.m in Sources */,
 				3228BD7625811E0B00401F42 /* OSSpinLockDemo.m in Sources */,
