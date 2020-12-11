@@ -10,10 +10,10 @@
 #import "ThreadHiddenTrouble.h"
 #import "OSSpinLockDemo.h"
 #import "OSSpinLockDemo2.h"
+#import "OSUnfairLockDemo.h"
 
 @interface LockVC ()
-@property (nonatomic, strong)OSSpinLockDemo *OSSPinLockObj;
-@property (nonatomic, strong)OSSpinLockDemo2 *OSSPinLockObj2;
+
 @end
 
 @implementation LockVC
@@ -27,7 +27,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
 //    [self ThreadHiddenTroubleDemo];
-    [self OSSpinLockDemo];
+//    [self OSSpinLockDemo];
+    [self OSUnfairLockDemo];
 }
 
 /// 线程隐患
@@ -46,5 +47,9 @@
 //    [[OSSpinLockDemo2 new] ticketTest];
 }
 
-
+- (void)OSUnfairLockDemo
+{
+    [[OSUnfairLockDemo new] moneyTest];
+    [[OSUnfairLockDemo new] ticketTest];
+}
 @end

@@ -29,6 +29,7 @@
 		326BE881257FB29500FD355B /* GCDInterviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE880257FB29500FD355B /* GCDInterviewVC.m */; };
 		326BE885257FBF7700FD355B /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE884257FBF7700FD355B /* GCDGroup.m */; };
 		326BE888257FBF9100FD355B /* GCDGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BE887257FBF9100FD355B /* GCDGroupVC.m */; };
+		328929362583A2FC0028DDC3 /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 328929352583A2FC0028DDC3 /* OSUnfairLockDemo.m */; };
 		32C04EBD25826CA700534697 /* OSSpinLockDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +95,8 @@
 		326BE884257FBF7700FD355B /* GCDGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
 		326BE886257FBF9100FD355B /* GCDGroupVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDGroupVC.h; sourceTree = "<group>"; };
 		326BE887257FBF9100FD355B /* GCDGroupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroupVC.m; sourceTree = "<group>"; };
+		328929342583A2FC0028DDC3 /* OSUnfairLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSUnfairLockDemo.h; sourceTree = "<group>"; };
+		328929352583A2FC0028DDC3 /* OSUnfairLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSUnfairLockDemo.m; sourceTree = "<group>"; };
 		32C04EBB25826CA700534697 /* OSSpinLockDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo2.h; sourceTree = "<group>"; };
 		32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,6 +214,8 @@
 				3228BD7525811E0B00401F42 /* OSSpinLockDemo.m */,
 				32C04EBB25826CA700534697 /* OSSpinLockDemo2.h */,
 				32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */,
+				328929342583A2FC0028DDC3 /* OSUnfairLockDemo.h */,
+				328929352583A2FC0028DDC3 /* OSUnfairLockDemo.m */,
 				3228BD7725811E4200401F42 /* TheadBaseDemo.h */,
 				3228BD7825811E4200401F42 /* TheadBaseDemo.m */,
 				3228BD7125811C3B00401F42 /* LockVC.h */,
@@ -381,6 +386,7 @@
 				32C04EBD25826CA700534697 /* OSSpinLockDemo2.m in Sources */,
 				321FCEE5257933F600E35EDF /* AppDelegate.m in Sources */,
 				321FCEF6257933F800E35EDF /* main.m in Sources */,
+				328929362583A2FC0028DDC3 /* OSUnfairLockDemo.m in Sources */,
 				3228BD7625811E0B00401F42 /* OSSpinLockDemo.m in Sources */,
 				3228BD7025811B5200401F42 /* ThreadHiddenTrouble.m in Sources */,
 				326BE87B257FA6CF00FD355B /* GCDPermenantThreadVC.m in Sources */,
