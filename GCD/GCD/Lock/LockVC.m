@@ -11,6 +11,7 @@
 #import "OSSpinLockDemo.h"
 #import "OSSpinLockDemo2.h"
 #import "OSUnfairLockDemo.h"
+#import "MutexDemo.h"
 
 @interface LockVC ()
 
@@ -28,7 +29,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
 //    [self ThreadHiddenTroubleDemo];
 //    [self OSSpinLockDemo];
-    [self OSUnfairLockDemo];
+//    [self OSUnfairLockDemo];
+    [self MutexDemo];
 }
 
 /// 线程隐患
@@ -51,5 +53,11 @@
 {
     [[OSUnfairLockDemo new] moneyTest];
     [[OSUnfairLockDemo new] ticketTest];
+}
+
+- (void)MutexDemo
+{
+    [[MutexDemo new] moneyTest];
+    [[MutexDemo new] ticketTest];
 }
 @end
