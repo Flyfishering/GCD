@@ -16,6 +16,7 @@
 #import "MutexDemo3.h"
 #import "NSLockDemo.h"
 #import "NSConditionDemo.h"
+#import "NSConditionLockDemo.h"
 
 @interface LockVC ()
 
@@ -38,7 +39,8 @@
 //    [self MutexDemo2];
 //    [self MutexDemo3];
 //    [self NSLockDemo];
-    [self NSConditionDemo];
+//    [self NSConditionDemo];
+    [self NSConditionLockDemo];
 }
 
 /// 线程隐患
@@ -88,5 +90,10 @@
 - (void)NSConditionDemo
 {
     [[NSConditionDemo new] otherTest];
+}
+
+- (void)NSConditionLockDemo
+{
+    [[NSConditionLockDemo new] otherTest];
 }
 @end
