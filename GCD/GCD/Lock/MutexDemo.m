@@ -35,7 +35,6 @@
 //    pthread_mutex_init(mutex, NULL);
 }
 
-// 死锁：永远拿不到锁
 - (void)__saleTicket
 {
     pthread_mutex_lock(&_ticketMutexLock);
