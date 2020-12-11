@@ -34,6 +34,7 @@
 		3289293C2583AFA10028DDC3 /* MutexDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289293B2583AFA10028DDC3 /* MutexDemo2.m */; };
 		3289293F2583B70A0028DDC3 /* MutexDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289293E2583B70A0028DDC3 /* MutexDemo3.m */; };
 		328929422583B8490028DDC3 /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 328929412583B8490028DDC3 /* NSLockDemo.m */; };
+		328929452583B8EC0028DDC3 /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 328929442583B8EC0028DDC3 /* NSConditionDemo.m */; };
 		32C04EBD25826CA700534697 /* OSSpinLockDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +110,8 @@
 		3289293E2583B70A0028DDC3 /* MutexDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexDemo3.m; sourceTree = "<group>"; };
 		328929402583B8490028DDC3 /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
 		328929412583B8490028DDC3 /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
+		328929432583B8EC0028DDC3 /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
+		328929442583B8EC0028DDC3 /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
 		32C04EBB25826CA700534697 /* OSSpinLockDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo2.h; sourceTree = "<group>"; };
 		32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -236,6 +239,8 @@
 				3289293E2583B70A0028DDC3 /* MutexDemo3.m */,
 				328929402583B8490028DDC3 /* NSLockDemo.h */,
 				328929412583B8490028DDC3 /* NSLockDemo.m */,
+				328929432583B8EC0028DDC3 /* NSConditionDemo.h */,
+				328929442583B8EC0028DDC3 /* NSConditionDemo.m */,
 				3228BD7725811E4200401F42 /* TheadBaseDemo.h */,
 				3228BD7825811E4200401F42 /* TheadBaseDemo.m */,
 				3228BD7125811C3B00401F42 /* LockVC.h */,
@@ -412,6 +417,7 @@
 				328929362583A2FC0028DDC3 /* OSUnfairLockDemo.m in Sources */,
 				3228BD7625811E0B00401F42 /* OSSpinLockDemo.m in Sources */,
 				3228BD7025811B5200401F42 /* ThreadHiddenTrouble.m in Sources */,
+				328929452583B8EC0028DDC3 /* NSConditionDemo.m in Sources */,
 				326BE87B257FA6CF00FD355B /* GCDPermenantThreadVC.m in Sources */,
 				326BE871257E794400FD355B /* PermenantThread.m in Sources */,
 				328929422583B8490028DDC3 /* NSLockDemo.m in Sources */,
