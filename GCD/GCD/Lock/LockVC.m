@@ -17,6 +17,7 @@
 #import "NSLockDemo.h"
 #import "NSConditionDemo.h"
 #import "NSConditionLockDemo.h"
+#import "SerialQueueDemo.h"
 
 @interface LockVC ()
 
@@ -40,7 +41,8 @@
 //    [self MutexDemo3];
 //    [self NSLockDemo];
 //    [self NSConditionDemo];
-    [self NSConditionLockDemo];
+//    [self NSConditionLockDemo];
+    [self SerialQueueDemo];
 }
 
 /// 线程隐患
@@ -95,5 +97,11 @@
 - (void)NSConditionLockDemo
 {
     [[NSConditionLockDemo new] otherTest];
+}
+
+- (void)SerialQueueDemo
+{
+    [[SerialQueueDemo new] moneyTest];
+    [[SerialQueueDemo new] ticketTest];
 }
 @end
