@@ -37,6 +37,7 @@
 		328929452583B8EC0028DDC3 /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 328929442583B8EC0028DDC3 /* NSConditionDemo.m */; };
 		328929482583BA920028DDC3 /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 328929472583BA920028DDC3 /* NSConditionLockDemo.m */; };
 		3289294B25846E2F0028DDC3 /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289294A25846E2F0028DDC3 /* SerialQueueDemo.m */; };
+		3289294E25846F030028DDC3 /* SemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3289294D25846F030028DDC3 /* SemaphoreDemo.m */; };
 		32C04EBD25826CA700534697 /* OSSpinLockDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +119,8 @@
 		328929472583BA920028DDC3 /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
 		3289294925846E2F0028DDC3 /* SerialQueueDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialQueueDemo.h; sourceTree = "<group>"; };
 		3289294A25846E2F0028DDC3 /* SerialQueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialQueueDemo.m; sourceTree = "<group>"; };
+		3289294C25846F030028DDC3 /* SemaphoreDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SemaphoreDemo.h; sourceTree = "<group>"; };
+		3289294D25846F030028DDC3 /* SemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemo.m; sourceTree = "<group>"; };
 		32C04EBB25826CA700534697 /* OSSpinLockDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo2.h; sourceTree = "<group>"; };
 		32C04EBC25826CA700534697 /* OSSpinLockDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -251,6 +254,8 @@
 				328929472583BA920028DDC3 /* NSConditionLockDemo.m */,
 				3289294925846E2F0028DDC3 /* SerialQueueDemo.h */,
 				3289294A25846E2F0028DDC3 /* SerialQueueDemo.m */,
+				3289294C25846F030028DDC3 /* SemaphoreDemo.h */,
+				3289294D25846F030028DDC3 /* SemaphoreDemo.m */,
 				3228BD7725811E4200401F42 /* TheadBaseDemo.h */,
 				3228BD7825811E4200401F42 /* TheadBaseDemo.m */,
 				3228BD7125811C3B00401F42 /* LockVC.h */,
@@ -429,6 +434,7 @@
 				3289294B25846E2F0028DDC3 /* SerialQueueDemo.m in Sources */,
 				3228BD7625811E0B00401F42 /* OSSpinLockDemo.m in Sources */,
 				3228BD7025811B5200401F42 /* ThreadHiddenTrouble.m in Sources */,
+				3289294E25846F030028DDC3 /* SemaphoreDemo.m in Sources */,
 				328929452583B8EC0028DDC3 /* NSConditionDemo.m in Sources */,
 				326BE87B257FA6CF00FD355B /* GCDPermenantThreadVC.m in Sources */,
 				326BE871257E794400FD355B /* PermenantThread.m in Sources */,

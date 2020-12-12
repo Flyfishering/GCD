@@ -18,6 +18,7 @@
 #import "NSConditionDemo.h"
 #import "NSConditionLockDemo.h"
 #import "SerialQueueDemo.h"
+#import "SemaphoreDemo.h"
 
 @interface LockVC ()
 
@@ -42,7 +43,8 @@
 //    [self NSLockDemo];
 //    [self NSConditionDemo];
 //    [self NSConditionLockDemo];
-    [self SerialQueueDemo];
+//    [self SerialQueueDemo];
+    [self SemaphoreDemo];
 }
 
 /// 线程隐患
@@ -103,5 +105,13 @@
 {
     [[SerialQueueDemo new] moneyTest];
     [[SerialQueueDemo new] ticketTest];
+}
+
+- (void)SemaphoreDemo
+{
+//    [[SemaphoreDemo new] moneyTest];
+//    [[SemaphoreDemo new] ticketTest];
+    
+    [[SemaphoreDemo new] otherTest];
 }
 @end
